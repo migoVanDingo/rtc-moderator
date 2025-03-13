@@ -1,0 +1,5 @@
+module-info.class
+com/example/rtcmod/MainApp.class
+com/example/rtcmod/controllers/LoginController.class
+com/example/rtcmod/utils/FirebaseService.class
+com/example/rtcmod/controllers/DashboardController.class

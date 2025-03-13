@@ -1,0 +1,53 @@
+#header {
+    background-color: #333;
+    -fx-background-color: #333;
+    padding: 10px;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+#logo {
+    -fx-fit-width: 50px;
+    -fx-fit-height: 50px;
+}
+
+#menuButton {
+    background-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    font-size: 24px;
+    -fx-font-size: 24px;
+    padding: 5px;
+    -fx-padding: 5px;
+    -fx-alignment: center-right;
+}
+
+#dashboard {
+    width: 100%;
+    -fx-width: 100%;
+    -fx-spacing: 10px;
+}
+
+.sidebar {
+    width: 100%;
+    -fx-width: 100%;
+    background-color: #555;
+    -fx-background-color: #555;
+    padding: 10px;
+    -fx-padding: 10px;
+}
+
+.main-content {
+    width: 100%;
+    -fx-width: 100%;
+    background-color: #ddd;
+    -fx-background-color: #ddd;
+    padding: 10px;
+    -fx-padding: 10px;
+}
+
+
+VBox, HBox {
+    -fx-spacing: 10px;
+}
